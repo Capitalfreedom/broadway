@@ -1,7 +1,65 @@
+body {
+ text-align: center;
+}
+
+
+h1 {
+  font-family: Helvetica;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
 nav {
-    display: block;
+ vertical-align: baseline;
+}
+
+a {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 14px;
 }
 
 .header{
   background-image: url(/Users/johanellingsen/Documents/PROJECTS/broadway/resources/the-flatiron-building.png);
+}
+
+.footer {
+  font-family: Helvetica;
+  background-color: dimgray;
+  color: white;
+  font size: 11px;
+  text-align: left;
+}
+
+.btn-nav {
+  font-size: 18;
+  color: white;
+}
+
+#secondheader{
+  background-image: url(/Users/johanellingsen/Documents/PROJECTS/broadway/resources/the-flatiron-building.png);
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
 }
